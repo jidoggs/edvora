@@ -1,0 +1,90 @@
+header {
+  padding: 20px 43px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--headerBg);
+
+  .user {
+    display: flex;
+    align-items: center;
+    &__name {
+      margin-right: 1.5rem;
+    }
+    &__image {
+      width: 44px;
+      height: 44px;
+    }
+  }
+}
+.body {
+  background-color: var(--bodyBg);
+  padding: 0 43px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+.navlink {
+  display: flex;
+  list-style: none;
+
+  &__item {
+    margin-right: 44px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+.nav {
+  &__filter {
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0px;
+    color: #f2f2f2;
+    position: relative;
+
+    // &--icon{
+    //   marfinr
+    // }
+    &--form {
+      position: absolute;
+      right: 0;
+      top: 30px;
+      background-color: #f2f2f2;
+      padding: 24px 30px;
+      border-radius: 16px;
+      background: #131313;
+      display: flex;
+      flex-direction: column;
+      row-gap: 12px;
+      z-index: 3;
+
+      label{
+        display: none;
+      }
+      select{
+        width: 144px;
+        padding: 8px 12px;
+        background: #232323;
+        border-radius: 4px;
+        color: #fff;
+      }
+
+      p {
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 24px;
+        letter-spacing: 0em;
+        padding-bottom: 12px;
+        border-bottom: 1px solid #cbcbcb;
+      }
+    }
+  }
+}

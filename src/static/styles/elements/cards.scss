@@ -1,0 +1,51 @@
+.ride {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 13px;
+  padding-bottom: 3rem;
+
+  &__card {
+    background-color: var(--cardBg);
+    padding: 1.5rem;
+    display: flex;
+    // justify-content: space-between;
+    column-gap: 44px;
+    border-radius: 10px;
+    position: relative;
+
+    &--image {
+      height: 148px;
+      width: 296px;
+      border-radius: 4px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+    &--details {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      row-gap: 8px;
+    }
+  }
+}
+
+.badge {
+  &Container {
+    position: absolute;
+    right: 1.5rem;
+    top: 1.5rem;
+    display: flex;
+    column-gap: 1.5rem;
+  }
+
+  padding: 4px 10px;
+  background-color: var(--badgeBg);
+  color: var(--white);
+  border-radius: 16px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0em;
+}

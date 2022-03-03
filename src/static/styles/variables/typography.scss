@@ -1,0 +1,41 @@
+.user {
+  &__name {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: var(--white);
+  }
+}
+.link {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  color: var(--ash);
+  text-decoration: none;
+}
+.active {
+  font-weight: 700;
+  border-bottom: 2px solid var(--white);
+  color: var(--white);
+}
+
+.badge_title {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0em;
+}
+
+.card__title {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0px;
+  color: var(--titleText);
+
+  span {
+    color: var(--white);
+  }
+}

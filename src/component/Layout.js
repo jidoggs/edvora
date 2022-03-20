@@ -51,9 +51,6 @@ function Layout() {
         console.log(err);
       });
 
-    // dispatch(getNearestRides());
-    // dispatch(getPastRides());
-    // dispatch(getUpComingRides());
   }, [dispatch]);
 
   useEffect(() => {
